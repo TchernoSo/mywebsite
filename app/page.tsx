@@ -1,8 +1,10 @@
 import Image from 'next/image'
+import Navbar from './navbar'
 
 export default function Home() {
   return (
     <main>
-      <h1>CodebytheSoul</h1></main>
+      <Navbar/>
+      </main>
   )
 }
